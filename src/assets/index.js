@@ -23,9 +23,9 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import dpdc from "./Dpdc logo.png";
-import rh from "./RH logo.png";
-import pl from "./PL logo.png";
+import dpdc from "./Dpdclogo.png";
+import rh from "./rhlogo.png";
+import pl from "./plogo.png";
 
 export {
   airbnb,
