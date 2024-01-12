@@ -2,6 +2,7 @@
   "name": "rinnovo",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
   "homepage": "https://ZoDD-Script.github.io/Rinnovo/",
   "scripts": {
     "dev": "vite",
