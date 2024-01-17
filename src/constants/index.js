@@ -84,7 +84,7 @@ export const stats = [
   {
     id: "stats-3",
     title: "Active Users",
-    value: "$50+",
+    value: "50+",
   },
 ];
 
