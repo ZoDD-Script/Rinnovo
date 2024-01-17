@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Cut Costs, Generate More",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Rinnovo batteries maximize your renewable energy harvest. Store excess solar and wind power for later use, reducing dependence on unreliable grids and volatile energy prices. Invest in your future with cleaner, cheaper energy independence.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: " Green to the Core",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Rinnovo commits to sustainability, not just in our products but also in our practices. Our eco-friendly manufacturing processes and responsible materials sourcing minimize our environmental footprint, ensuring a clean energy future for generations to come.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Unwavering Quality, Built to Last",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Backed by the legacy of Precise Lighting, Rinnovo batteries embody innovation and durability. We use premium materials and rigorous quality control protocols to guarantee reliable performance for years to come.",
   },
 ];
 
@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Successful Installation",
+    value: "30+",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "10+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Active Users",
+    value: "$50+",
   },
 ];
 

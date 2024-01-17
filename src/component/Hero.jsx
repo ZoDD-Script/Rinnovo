@@ -17,11 +17,12 @@ const Hero = () =>  (
         </p>
       </div>
 
+
       <div className='flex flex-row justify-between items-center w-full'>
-        <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
-        Pioneering<br className='sm:block hidden' /> {' '}
+        <h1 className='flex-1 font-poppins font-semibold ss:text-[62px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
+        Powering Your Future<br className='sm:block hidden' /> {' '}
           <span 
-          className='text-gradient'>Renewable
+          className='text-gradient'>with Cutting-Edge
           </span> {' '} 
         </h1>
         <div className='ss:flex hidden md:mr-4 mr-0'>
@@ -29,8 +30,8 @@ const Hero = () =>  (
         </div>
       </div>
 
-      <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full'>
-      Energy Solutions.
+      <h1 className='font-poppins font-semibold ss:text-[58px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full'>
+      Renewable Energy Storage.
       </h1>
       <p className={`${styles.paragraph} max-w-[4x0px] mt-5`}>Your leading source for innovative renewable energy solutions. As a dynamic subsidiary of the distinguished Precise Energy Group.</p>
     </div>

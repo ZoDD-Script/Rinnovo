@@ -5,8 +5,8 @@ import Button from './Button'
 const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>Tailored Energy Solutions <br className='sm:block hidden' /> </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>We recognize the unique energy needs of each client. Our diverse product range reflects our commitment to providing customized solutions that are not only efficient but also environmentally responsible.</p>
+      <h2 className={styles.heading2}>Tailored Energy Storage <br className='sm:block hidden' /> </h2>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Every project is unique, and so are your energy demands. We offer a diverse range of battery capacities and chemistries, meticulously crafted to seamlessly integrate with your existing renewable energy systems, maximizing efficiency and reliabilit.</p>
       <Button styles='mt-10' />
     </div>
 

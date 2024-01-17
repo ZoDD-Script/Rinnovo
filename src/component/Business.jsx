@@ -18,8 +18,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () => (
   <section id='features' className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>You do the Business, <br className='sm:block hidden' /> we'll handle the money.</h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market</p>
+      <h2 className={styles.heading2}>Rinnovo by Precise, <br className='sm:block hidden' /> a pioneering subsidiary of the renowned Precise Lighting.</h2>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>redefines how we store and utilize renewable energy. We envision a future powered by clean, reliable options, and our innovative battery solutions pave the way towards that goal.</p>
 
       <Button styles='mt-10' />
     </div>
