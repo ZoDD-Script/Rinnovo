@@ -6,7 +6,7 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>Tailored Energy Storage <br className='sm:block hidden' /> </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Every project is unique, and so are your energy demands. We offer a diverse range of battery capacities and chemistries, meticulously crafted to seamlessly integrate with your existing renewable energy systems, maximizing efficiency and reliabilit.</p>
+      <p className={`${styles.paragraph} max-w-[780px] mt-5`}>Every project is unique, and so are your energy demands. We offer a diverse range of battery capacities and chemistries, meticulously <br /> crafted to seamlessly integrate with your existing renewable energy systems, maximizing efficiency and reliabilit.</p>
       <Button styles='mt-10' />
     </div>
 

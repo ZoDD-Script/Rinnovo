@@ -12,8 +12,8 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>Leading the Storage Revolution <br className='sm:block hidden' /></h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Rinnovo embraces the latest advancements in battery technology, delivering high-performance, durable solutions for residential, commercial, and industrial applications. From grid-tied systems to off-grid independence, we have the perfect battery for your needs.
+      <p className={`${styles.paragraph} max-w-[870px] mt-5`}>
+      Rinnovo embraces the latest advancements in battery technology, delivering high-performance, durable solutions for residential, <br /> commercial, and industrial applications. From grid-tied systems to <br /> off-grid independence, we have the perfect battery for your needs.
       </p>
 
       <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
