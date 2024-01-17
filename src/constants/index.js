@@ -47,25 +47,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "No more bakery blackout blues! Rinnovo keeps the lights on & treats baking. Quiet, efficient, great service. A+ for small biz backup!",
+    name: "Sarah ",
+    title: "Small Business Owner",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      " Solar + storage = energy freedom! Rinnovo's smart system saves us money & the planet. Clean power, happy family.",
+    name: "David",
+    title: "Eco-Family",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Rinnovo's inverter is a techie's dream: sleek, smart, phone control. Batteries rock, no power dips. Future of energy, right here!",
+    name: "Bolaji",
+    title: "Web Developer",
     img: people03,
   },
 ];
