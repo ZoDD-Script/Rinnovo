@@ -1,9 +1,20 @@
 import {useState} from 'react'
-import { close, logo, menu } from "../assets"
-import { navLinks } from "../constants"
+import { close, logo, menu, user, user1, whatsappIcon } from "../assets"
+import { navLinks, whatsapp } from "../constants"
+import styles from '../style'
 
 const Navbar = () => {
   const [toggle, settoggle] = useState(false)
+  const [whatsappDropdown, setWhatsappDropdown] = useState(false);
+  const [selectedWhatsappNumber, setSelectedWhatsappNumber] = useState(null);
+
+  const handleWhatsappClick = (number) => {
+    setWhatsappDropdown(false);
+    setSelectedWhatsappNumber(number);
+    
+    // Implement logic to redirect to WhatsApp with the selected number
+    // Example: window.open(`https://wa.me/${number}`, '_blank');
+  };
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
@@ -45,6 +56,36 @@ const Navbar = () => {
         </div>
       </div>
 
+      <div className='fixed bottom-4 right-4 z-10'>
+        <img
+          src={whatsappIcon} // Replace with your WhatsApp icon source
+          alt="whatsapp"
+          className='w-[40px] h-[40px] cursor-pointer animate-pulse'
+          onClick={() => setWhatsappDropdown((prev) => !prev)}
+        />
+
+        {whatsappDropdown && (
+          <div className='text-white border rounded shadow-lg absolute bottom-14 right-0 sm:w-[300px] w-[250px]'>
+            <div className='flex justify-between p-4 bg-blue-gradient'>
+              <img src={close} alt="close" onClick={() => setWhatsappDropdown((prev) => !prev)} className='mr-4' />
+              <h2 className='p-2 flex-1 text-cent font-poppins font-medium text-[18px] text-primary outline-none'>Support</h2>
+            </div>
+            {whatsapp.map((wa) => (
+              <div key={wa.id} className='flex justify-start'>
+                <a onClick={() => setWhatsappDropdown((prev) => !prev)} href={`https://wa.me/${wa.number}?text=Hi...`} target='_blank' className='flex flex-1 justify-start items-center p-3 border-b-2 bg-white text-black'>
+                  <img src={user} alt="" className='w-[50px] mr-4' />
+                  <div>
+                    <p className='text-[13px]'>{wa.title}</p>
+                    <p className='font-semibold text-[20px]'>
+                      {wa.name}
+                    </p>
+                  </div>
+                </a>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
     </nav>
   )
 }

@@ -33,6 +33,8 @@ import battery4 from "./battery4.png";
 import user1 from "./user1.jpg";
 import user2 from "./user2.jpg";
 import user3 from "./user3.jpg";
+import whatsappIcon from "./whatsapp.png";
+import user from "./user.png";
 
 export {
   airbnb,
@@ -70,4 +72,6 @@ export {
   user1,
   user2,
   user3,
+  whatsappIcon,
+  user,
 };
