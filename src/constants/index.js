@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, dpdc, rh, pl  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, dpdc, rh, pl, user1, user2, user3  } from "../assets";
 
 export const navLinks = [
   {
@@ -50,7 +50,7 @@ export const feedback = [
       "No more bakery blackout blues! Rinnovo keeps the lights on & treats baking. Quiet, efficient, great service. A+ for small biz backup!",
     name: "Sarah ",
     title: "Small Business Owner",
-    img: people01,
+    img: user1,
   },
   {
     id: "feedback-2",
@@ -58,7 +58,7 @@ export const feedback = [
       " Solar + storage = energy freedom! Rinnovo's smart system saves us money & the planet. Clean power, happy family.",
     name: "David",
     title: "Eco-Family",
-    img: people02,
+    img: user2,
   },
   {
     id: "feedback-3",
@@ -66,7 +66,7 @@ export const feedback = [
       "Rinnovo's inverter is a techie's dream: sleek, smart, phone control. Batteries rock, no power dips. Future of energy, right here!",
     name: "Bolaji",
     title: "Web Developer",
-    img: people03,
+    img: user3,
   },
 ];
 
