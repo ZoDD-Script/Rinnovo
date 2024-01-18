@@ -1,20 +1,19 @@
 import {useState} from 'react'
 import { close, logo, menu, user, user1, whatsappIcon } from "../assets"
 import { navLinks, whatsapp } from "../constants"
-import styles from '../style'
 
 const Navbar = () => {
   const [toggle, settoggle] = useState(false)
   const [whatsappDropdown, setWhatsappDropdown] = useState(false);
-  const [selectedWhatsappNumber, setSelectedWhatsappNumber] = useState(null);
+  // const [selectedWhatsappNumber, setSelectedWhatsappNumber] = useState(null);
 
-  const handleWhatsappClick = (number) => {
-    setWhatsappDropdown(false);
-    setSelectedWhatsappNumber(number);
+  // const handleWhatsappClick = (number) => {
+  //   setWhatsappDropdown(false);
+  //   setSelectedWhatsappNumber(number);
     
-    // Implement logic to redirect to WhatsApp with the selected number
-    // Example: window.open(`https://wa.me/${number}`, '_blank');
-  };
+  //   // Implement logic to redirect to WhatsApp with the selected number
+  //   // Example: window.open(`https://wa.me/${number}`, '_blank');
+  // };
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
@@ -68,7 +67,7 @@ const Navbar = () => {
           <div className='text-white border rounded shadow-lg absolute bottom-14 right-0 sm:w-[300px] w-[250px]'>
             <div className='flex justify-between p-4 bg-blue-gradient'>
               <img src={close} alt="close" onClick={() => setWhatsappDropdown((prev) => !prev)} className='mr-4' />
-              <h2 className='p-2 flex-1 text-cent font-poppins font-medium text-[18px] text-primary outline-none'>Support</h2>
+              <h2 className='p-2 flex-1 text-center font-poppins font-medium text-[18px] text-primary outline-none'>Support</h2>
             </div>
             {whatsapp.map((wa) => (
               <div key={wa.id} className='flex justify-start'>

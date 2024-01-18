@@ -50,7 +50,7 @@ export const feedback = [
       "No more bakery blackout blues! Rinnovo keeps the lights on & treats baking. Quiet, efficient, great service. A+ for small biz backup!",
     name: "Sarah ",
     title: "Small Business Owner",
-    img: user1,
+    img: user3,
   },
   {
     id: "feedback-2",
@@ -66,7 +66,7 @@ export const feedback = [
       "Rinnovo's inverter is a techie's dream: sleek, smart, phone control. Batteries rock, no power dips. Future of energy, right here!",
     name: "Bolaji",
     title: "Web Developer",
-    img: user3,
+    img: user1,
   },
 ];
 
